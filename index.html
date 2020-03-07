@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="dmxAppConnect/dmxAppConnect.js"></script>
+	<!-- Required meta tags -->
+	<title>Wappler starter page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- Custom CSS styles-->
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="dmxAppConnect/dmxBootstrap4Collapse/dmxBootstrap4Collapse.js" defer=""></script>
+</head>
+
+<body is="dmx-app" id="index">
+	<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+		<div class="container"> <a class="navbar-brand" href="#">AutoDTI</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="#">Predict DTIs</a> </li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<header id="page-header" class="pb-md-5 pb-5 mb-lg-auto pb-lg-0">
+		<div class="container">
+			<div class="row pb-lg-5">
+				<div id="header-text" class="order-2 order-sm-2 order-md-1 col-12 col-sm-12 col-md-7 col-lg-11 mb-lg-5">
+					<h1 class="display-4">AutoDTI</h1>
+					<p class="lead">A Novel Approach to Finding Drug Target Interactions with Deep Variational Autoencoders</p>
+					<button type="button" class="btn btn-light text-black-50">Predict DTIs</button>
+				</div>
+				<div class="col-break w-100"></div>
+			</div>
+		</div>
+	</header>
+	<section id="features" class="bg-white">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h3 class="section-title">Finding new targets has never been easier</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-4 text-center py-4"> <i class="fa fa-cloud fa-4x text-muted" aria-hidden="true"></i>
+					<h5 class="text-info">Exhaustively comprehensive</h5>
+					<p class="text-muted">Makes use of 10 different drug-related netowrks for better characterization of biological process</p>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 text-center py-4"> <i class="fa fa-address-book fa-4x text-muted" aria-hidden="true"></i>
+					<div class="collapse" id="collapse1" is="dmx-bs4-collapse">
+						<p></p>
+					</div>
+					<h5 class="text-info">Deep network</h5>
+					<p class="text-muted">Preserves non-linear structure by applying multiple layers of non-linear function</p>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 text-center py-4"> <i class="fa fa-area-chart fa-4x text-muted" aria-hidden="true"></i>
+					<h5 class="text-info">Unparalleled performance</h5>
+					<p class="text-muted">Outperforms state-of-the-art competitive methods in DTI predictions</p>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 text-center py-4"> <i class="fa fa-bolt fa-4x text-muted" aria-hidden="true"></i>
+					<h5 class="text-info">Intelligent classifications</h5>
+					<p class="text-muted">Adopts a multi-modal deep autoencoder to capture complex patterns across different data sources</p>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 text-center py-4"> <i class="fa fa-cog fa-4x text-muted" aria-hidden="true"></i>
+					<h5 class="text-info">Flexible and customizable</h5>
+					<p class="text-muted">Employs deep variational autoencoders which have more hyperparameters to control</p>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 text-center py-4"> <i class="fa fa-database fa-4x text-muted" aria-hidden="true"></i>
+					<h5 class="text-info">Gold standard training</h5>
+					<p class="text-muted">Trained on latest release of DrugBank database</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="page-footer" class="bg-dark">
+		<div class="container"> <span class="text-muted">Copyright Your Name</span> </div>
+	</footer>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
